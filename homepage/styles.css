@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('1.jpg');
+    
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    height: 72px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    padding-left: 30px;
+    margin-top: 11px;
+    float: left;
+}
+.menu{
+    margin-left: 300px;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    float: left;
+    align-items: center;
+
+}
+ul li{
+    margin: 20px;
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+}
+a{
+    text-emphasis: none;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+ li :hover{
+    color: #ff7200;
+    cursor: pointer;
+ }
+input{
+
+width: 250px;
+height: 30px;
+ margin-left: 30px;
+ margin-top: 27px;
+ background-color: transparent;
+ border: #ff7200 1px solid;
+ border-radius: 5px;
+ }
+ .btn{
+    height: 30px;
+    margin-top: 27px;
+    background-color:  #ff7200;
+    border: #ff7200 4px solid;
+    border-radius: 5px;
+ }
+ .btn:hover{
+    cursor: pointer;
+    color: aliceblue;
+    background-color:#ff7200;
+ }
+ .content{
+    margin-left: 10%;
+    display: flex;
+ }
+.heading{
+    color: white;
+    margin-top: 25vh;
+}
+.button{
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 170px;
+    width: 75px;
+    height: 40px;
+     border-radius: 20px;
+}
+ .para{
+    letter-spacing: 2px;
+ }
+ .button:hover{
+    cursor: pointer;
+    color: aliceblue;
+    background-color:#ff7200;
+ }
+ span{
+    color: #ff7200;
+ }
+ .form{
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+    background-color: black;
+    height: 50vh;
+    width: 300px;
+    margin: 30px;
+ }
+ .form input:focus{
+    outline: none;
+ }
+ ::placeholder{
+    color: #fff;
+    font-family: Arial;
+ }
+.texting{
+    color: #ff7200;
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    margin-top: 20px;
+ }
+ .email{
+    border: black;
+    text-decoration: underline;
+ }
+ .password{
+    border: black;
+ }
+ .button2{
+margin: 30px;
+width: 250px;
+height: 30px;
+background-color: #ff7200;
+color: white;
+position: relative;
+left: 1%;
+border-radius: 10px;
+ }
+ .form a{
+    text-decoration: none;
+    color: white;
+    margin: 105px;
+ }
